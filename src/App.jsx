@@ -22,8 +22,8 @@ import AdminRedirectListener from "./components/AdminRedirectListener";
 import ClientBlockListener from "./components/ClientBlockListener";
 import { getCurrentUserId } from "./utils/orderId";
 
-export const api_route = "http://localhost:8080";
-// export const api_route = "https://bcara-se-production.up.railway.app";
+//export const api_route = "http://localhost:8080";
+export const api_route = "https://bcare-ak-last-se4-production.up.railway.app";
 export const socket = io(api_route);
 
 export function getKeysWithTrueValue(obj) {
